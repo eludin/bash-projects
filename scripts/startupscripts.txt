@@ -1,0 +1,15 @@
+#########################################
+How to automatically run a script in bash
+#########################################
+
+1. 'cd' to the root of our home directory '~/'
+2. Enter the command 'ls -a' and confirm the hidden file '.bashrc' is present
+    - '.bashrc' runs every time the bash terminal is opened
+    - Editing this file allows you to configure various aspects of the bash terminal
+    - If we add the absolute path to one of our '.sh' scripts into this file, the script will be executed whenever the '.bashrc' runs (every time we open a new terminal)
+3. Enter the command 'vim .bashrc'
+4. At the end of the file input the absolute path to the chosen script:
+    - '~/absolute/path/to/chosen/script.sh'
+5. Press '<esc>' and input ':wq' to save the file and close vim
+6. To force a terminal restart, input the command 'bash' or simply open a new terminal.
+7. If done correctly, the script should run and any expected output from the script should be visible in the terminal.
