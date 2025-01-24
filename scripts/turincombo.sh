@@ -1,5 +1,8 @@
 #!/bin/bash
-# simulate Turin's 5th level "wombo combo"
+# Created by Antonio Giacchetti
+# Last Update Jan 23 2025
+# Description:
+    # simulate Turin's 5th level "wombo combo"
     # Bonus Action: Hunter's Mark
     # Attack: Longbow shot + extra attack shot
     # prompt and apply colossus slayer
